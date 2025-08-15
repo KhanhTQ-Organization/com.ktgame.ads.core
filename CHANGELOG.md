@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.15...v1.0.16) (2025-08-15)
+
+
+### Bug Fixes
+
+* update ads core native, native inter , inter image ([54ab764](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/54ab764dd27745bba03b9a000f8c8da0271429e9))
+
 ## [1.0.15](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.14...v1.0.15) (2025-07-07)
 
 

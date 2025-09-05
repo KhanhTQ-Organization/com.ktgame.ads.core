@@ -2,7 +2,8 @@
     "name": "com.ktgame.ads.core",
     "rootNamespace": "com.ktgame.ads.core",
     "references": [
-        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:cbb42e4cfd9484f52972c8f05e1c3252"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

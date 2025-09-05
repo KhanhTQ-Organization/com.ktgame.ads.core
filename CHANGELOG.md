@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.16...v1.0.17) (2025-09-05)
+
+
+### Bug Fixes
+
+* add asmdef ([d35b3f3](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/d35b3f324dd57149c46d6a2b314695dff613e55d))
+
 ## [1.0.16](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.15...v1.0.16) (2025-08-15)
 
 

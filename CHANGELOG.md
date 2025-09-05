@@ -1,3 +1,10 @@
+## [1.0.19](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.18...v1.0.19) (2025-09-05)
+
+
+### Bug Fixes
+
+* remove auto request ads banner, mrec ([cd85010](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/cd850108bd0204edd78d6466150856f4eaadbadb))
+
 ## [1.0.18](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.17...v1.0.18) (2025-09-05)
 
 

@@ -25,6 +25,7 @@
 		{
 			base.LoadSucceededHandler(placement);
 			RequestStrategy.MarkSuccess();
+			RequestStrategy.OnRequest -= RequestHandler;
 		}
 	}
 }

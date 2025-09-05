@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-#if ADMOB
+#if ADMOB_NATIVE
 using GoogleMobileAds.Api;
 #endif
 
@@ -10,7 +10,7 @@ namespace com.ktgame.ads.core
 	public class NullNativeAdapter : INativeAdapter
 	{
 		public static readonly NullNativeAdapter Instance = new NullNativeAdapter();
-#if ADMOB
+#if ADMOB_NATIVE
 		public NativeAd CurrentNativeAd { get; private set; }
 		public Queue<NativeAd> NativeAdsPreload { get; private set;}
 		public List<NativeAd> NativeAdsTemp { get; private set;}

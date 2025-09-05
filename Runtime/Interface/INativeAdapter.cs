@@ -8,7 +8,7 @@ namespace com.ktgame.ads.core
 {
 	public interface INativeAdapter
 	{
-#if ADMOB
+#if ADMOB_NATIVE
 		NativeAd CurrentNativeAd { get; }
 		Queue<NativeAd> NativeAdsPreload { get; }
 		List<NativeAd> NativeAdsTemp { get; }

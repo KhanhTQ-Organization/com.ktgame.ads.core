@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.17...v1.0.18) (2025-09-05)
+
+
+### Bug Fixes
+
+* ADMOD_NATIVE ([3dabd14](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/3dabd1410485937a4af388928cd16bafb15dfcdb))
+
 ## [1.0.17](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.16...v1.0.17) (2025-09-05)
 
 

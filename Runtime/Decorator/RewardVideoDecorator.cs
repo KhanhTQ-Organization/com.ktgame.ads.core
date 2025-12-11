@@ -61,7 +61,7 @@ namespace com.ktgame.ads.core
 
         protected virtual void VideoOpenedHandler()
         {
-            OnVideoClicked?.Invoke();
+            OnVideoOpened?.Invoke();
         }
 
         protected virtual void ShowFailedHandler(AdError error)

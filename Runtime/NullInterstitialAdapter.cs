@@ -18,6 +18,7 @@ namespace com.ktgame.ads.core
         public event Action<AdPlacement> OnClicked;
         public event Action OnClosed;
         public event Action<ImpressionData> OnImpressionSuccess;
+        public event Action<ImpressionData> OnPaid;
         public bool IsReady => true;
         
         public void Load()

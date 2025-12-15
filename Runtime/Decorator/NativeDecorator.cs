@@ -19,6 +19,7 @@ namespace com.ktgame.ads.core
         public event Action<AdError> OnLoadFailed;
         public event Action<AdPlacement> OnClicked;
         public event Action<ImpressionData> OnImpressionSuccess;
+        public event Action<ImpressionData> OnPaid;
         public event Action OnClosed;
         public bool IsReady => Adapter.IsReady;
 
@@ -30,6 +31,12 @@ namespace com.ktgame.ads.core
             Adapter.OnLoadSucceeded += LoadSucceededHandler;
             Adapter.OnClosed += ClosedHandler;
             Adapter.OnImpressionSuccess += ImpressionSuccessHandler;
+            Adapter.OnPaid += PaidHandler;
+        }
+
+        protected virtual void PaidHandler(ImpressionData impressionData)
+        {
+            OnPaid?.Invoke(impressionData);
         }
 
         protected virtual void ClosedHandler()

@@ -12,6 +12,7 @@ namespace com.ktgame.ads.core
 		public event Action<AdPlacement> OnClicked;
 		public event Action OnClosed;
 		public event Action<ImpressionData> OnImpressionSuccess;
+		public event Action<ImpressionData> OnPaid;
 		public bool IsReady => Adapter.IsReady;
 
 		protected InterstitialDecorator(IInterstitialAdapter adapter)
@@ -24,6 +25,12 @@ namespace com.ktgame.ads.core
 			Adapter.OnImpressionSuccess += ImpressionSuccessHandler;
 			Adapter.OnLoadSucceeded += LoadSucceededHandler;
 			Adapter.OnClosed += ClosedHandler;
+			Adapter.OnPaid += AdRevenuePaidHandler;
+		}
+
+		protected virtual void AdRevenuePaidHandler(ImpressionData impressionData)
+		{
+			OnPaid?.Invoke(impressionData);
 		}
 
 		protected virtual void ClosedHandler()

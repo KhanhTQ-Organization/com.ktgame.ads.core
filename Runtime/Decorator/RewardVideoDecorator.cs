@@ -14,6 +14,7 @@ namespace com.ktgame.ads.core
         public event Action OnVideoClosed;
         public event Action<AdPlacement> OnRewarded;
         public event Action<ImpressionData> OnImpressionSuccess;
+        public event Action<ImpressionData> OnPain;
         public bool IsReady => Adapter.IsReady;
 
         protected RewardVideoDecorator(IRewardVideoAdapter adapter)
@@ -27,6 +28,12 @@ namespace com.ktgame.ads.core
             Adapter.OnLoadSucceeded += LoadSucceededHandler;
             Adapter.OnVideoClicked += VideoClickHandler;
             Adapter.OnImpressionSuccess += ImpressionSuccessHandler;
+            Adapter.OnPain += PainHandler;
+        }
+
+        protected virtual void PainHandler(ImpressionData impressionData)
+        {
+            OnPain?.Invoke(impressionData);
         }
 
         protected virtual void ImpressionSuccessHandler(ImpressionData impressionData)

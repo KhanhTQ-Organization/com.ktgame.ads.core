@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.21...v1.0.22) (2025-12-15)
+
+
+### Bug Fixes
+
+* update onPaid event ([b095f0f](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/b095f0f278ae47d640738a01c68f6471bc6225af))
+
 ## [1.0.21](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.20...v1.0.21) (2025-12-15)
 
 

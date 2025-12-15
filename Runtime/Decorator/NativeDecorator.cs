@@ -29,6 +29,7 @@ namespace com.ktgame.ads.core
             Adapter.OnClicked += ClickHandler;
             Adapter.OnLoadSucceeded += LoadSucceededHandler;
             Adapter.OnClosed += ClosedHandler;
+            Adapter.OnImpressionSuccess += ImpressionSuccessHandler;
         }
 
         protected virtual void ClosedHandler()

@@ -10,7 +10,7 @@ namespace com.ktgame.ads.core
 		public event Action<AdPlacement> OnLoadSucceeded;
 		public event Action<AdPlacement> OnClicked;
 		public event Action<ImpressionData> OnImpressionSuccess;
-		//public bool IsReady => Adapter.IsReady;
+		public bool IsReady => Adapter.IsReady;
 		
 		protected MRecDecorator(IMRecAdapter adapter)
 		{

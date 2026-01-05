@@ -11,12 +11,13 @@ namespace com.ktgame.ads.core
 		public event Action<AdError> OnLoadFailed;
 		public event Action<AdPlacement> OnClicked;
 		public event Action<ImpressionData> OnImpressionSuccess;
-        
+		public bool IsReady => true;
+		
 		private NullMRecAdapter()
 		{
             
 		}
-        
+
 		public void Load()
 		{
             

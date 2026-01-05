@@ -10,6 +10,8 @@ namespace com.ktgame.ads.core
 	public class NullNativeInterAdapter : INativeAdapter
 	{
 		public static readonly NullNativeInterAdapter Instance = new NullNativeInterAdapter();
+		public AdFormat AdFormat => AdFormat.NativeInter;
+		
 #if ADMOB_NATIVE
 		public NativeAd CurrentNativeAd { get; private set; }
 		public Queue<NativeAd> NativeAdsPreload { get; private set;}

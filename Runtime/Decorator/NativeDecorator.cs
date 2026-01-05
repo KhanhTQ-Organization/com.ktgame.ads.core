@@ -10,10 +10,10 @@ namespace com.ktgame.ads.core
     public class NativeDecorator : INativeAdapter
     {
         protected INativeAdapter Adapter { private set; get; }
+        public AdFormat AdFormat => Adapter.AdFormat;
+        
 #if ADMOB_NATIVE
         public NativeAd CurrentNativeAd => Adapter.CurrentNativeAd;
-        public Queue<NativeAd> NativeAdsPreload => Adapter.NativeAdsPreload;
-        public List<NativeAd> NativeAdsTemp => Adapter.NativeAdsTemp;
 #endif
         public event Action<AdPlacement> OnLoadSucceeded;
         public event Action<AdError> OnLoadFailed;

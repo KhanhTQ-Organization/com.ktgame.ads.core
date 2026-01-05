@@ -8,9 +8,11 @@ namespace com.ktgame.ads.core
 		public IInterstitialAdapter InterstitialImage { private set; get; }
 		public IRewardVideoAdapter RewardVideo { private set; get; }
 		public IAppOpenAdapter AppOpen { private set; get; }
+		public IAppOpenAdapter AppOpenResume { private set; get; }
 		public IMRecAdapter MRec { private set; get; }
 		public INativeAdapter Native { private set; get; }
 		public INativeAdapter NativeInter { private set; get; }
+		public INativeAdapter NativeCollapsible { private set; get; }
 
 		public NullAdAdapter()
 		{
@@ -53,6 +55,11 @@ namespace com.ktgame.ads.core
 			AppOpen = appOpenAdapter;
 		}
 
+		public void SetAppOpenResume(IAppOpenAdapter appOpenAdapter)
+		{
+			AppOpenResume = appOpenAdapter;
+		}
+
 		public void SetMRec(IMRecAdapter mRecAdapter)
 		{
 			MRec = mRecAdapter;
@@ -66,6 +73,11 @@ namespace com.ktgame.ads.core
 		public void SetNativeInter(INativeAdapter nativeInterAdapter)
 		{
 			NativeInter = nativeInterAdapter;
+		}
+
+		public void SetNativeCollapsible(INativeAdapter nativeCollapsibleAdapter)
+		{
+			NativeCollapsible = nativeCollapsibleAdapter;
 		}
 
 		public void SetInterstitialImage(IInterstitialAdapter interstitialImage)

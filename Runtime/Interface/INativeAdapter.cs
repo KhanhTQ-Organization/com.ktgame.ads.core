@@ -8,10 +8,10 @@ namespace com.ktgame.ads.core
 {
 	public interface INativeAdapter
 	{
+		AdFormat AdFormat { get; }
+		
 #if ADMOB_NATIVE
 		NativeAd CurrentNativeAd { get; }
-		Queue<NativeAd> NativeAdsPreload { get; }
-		List<NativeAd> NativeAdsTemp { get; }
 #endif
 		event Action<AdPlacement> OnLoadSucceeded;
 		event Action<AdError> OnLoadFailed;

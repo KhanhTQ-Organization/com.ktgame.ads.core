@@ -8,7 +8,7 @@ namespace com.ktgame.ads.core
         public AdFormat AdFormat { get; }
         public string AdPlacement { get; }
         public string Currency { get; }
-        public double Revenue { get; } // danh thu
+        public double Revenue { get; }
 
         public ImpressionData(AdPlatform adPlatform, string adNetwork, string adUnit, AdFormat adFormat, string placement, string currency, double revenue)
         {

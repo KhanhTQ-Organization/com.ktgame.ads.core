@@ -9,9 +9,11 @@ namespace com.ktgame.ads.core
 		IInterstitialAdapter InterstitialImage { get; }
 		IRewardVideoAdapter RewardVideo { get; }
 		IAppOpenAdapter AppOpen { get; }
+		IAppOpenAdapter AppOpenResume { get; }
 		IMRecAdapter MRec { get; }
 		INativeAdapter Native { get; }
 		INativeAdapter NativeInter { get; }
+		INativeAdapter NativeCollapsible { get; }
 		void Initialize(Action<bool> onComplete);
 		void SetPause(bool pause);
 		void SetBanner(IBannerAdapter bannerAdapter);

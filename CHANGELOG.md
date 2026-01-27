@@ -1,3 +1,5 @@
+## [1.0.24](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.23...v1.0.24) (2026-01-27)
+
 ## [1.0.23](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.22...v1.0.23) (2026-01-05)
 
 

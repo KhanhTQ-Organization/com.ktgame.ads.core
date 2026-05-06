@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.24...v1.0.25) (2026-05-06)
+
+
+### Bug Fixes
+
+* re ip scope ([930f5e8](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/930f5e86d1d5077c5847966154535a50f69d0572))
+
 ## [1.0.24](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.23...v1.0.24) (2026-01-27)
 
 ## [1.0.23](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.22...v1.0.23) (2026-01-05)

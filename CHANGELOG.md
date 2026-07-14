@@ -1,3 +1,10 @@
+## [1.0.26](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.25...v1.0.26) (2026-07-14)
+
+
+### Bug Fixes
+
+* update banner ([ac9e667](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/commit/ac9e6673e6725b0154eb7a8b21750974f2e10c57))
+
 ## [1.0.25](https://github.com/KhanhTQ-Organization/com.ktgame.ads.core/compare/v1.0.24...v1.0.25) (2026-05-06)
 
 
